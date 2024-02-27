@@ -30,7 +30,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/toriime/docs/edit/main/:path'
+      pattern: 'https://github.com/toriime/docs/edit/main/docs/:path'
     }
   },
 
