@@ -1,0 +1,5 @@
+{
+    "title": "Standardy",
+    "root": true,
+    "pages": ["response-schema", "status-codes"]
+}
