@@ -1,14 +1,35 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "vitepress": "1.0.0-rc.44",
-    "vue": "^3.4.20"
-  },
+  "name": ".",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  }
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "postinstall": "fumadocs-mdx",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "fumadocs-core": "16.0.10",
+    "fumadocs-mdx": "13.0.7",
+    "fumadocs-ui": "16.0.10",
+    "lucide-react": "^0.552.0",
+    "next": "16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "eslint-config-next": "16.0.1",
+    "eslint": "^9.39.1",
+    "@eslint/eslintrc": "^3.3.1"
+  },
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
 }
